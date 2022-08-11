@@ -1,0 +1,30 @@
+{
+  "name": "vitify-docs",
+  "version": "1.0.0",
+  "description": "Documentations for Vitify Admin",
+  "keywords": [
+    "vite",
+    "vuetify",
+    "admin-template"
+  ],
+  "author": "Yue JIN <yuejin13@fudan.edu.cn>",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.4",
+    "vue": "^3.2.37"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}
