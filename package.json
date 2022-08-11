@@ -1,5 +1,6 @@
 {
   "name": "vitify-docs",
+  "packageManager": "pnpm@7.9.0",
   "version": "1.0.0",
   "description": "Documentations for Vitify Admin",
   "keywords": [
@@ -28,3 +29,4 @@
     }
   }
 }
+
