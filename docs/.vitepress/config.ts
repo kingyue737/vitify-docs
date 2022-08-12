@@ -59,6 +59,10 @@ export default defineConfig({
               text: "API mocking",
               link: "/guide/mock",
             },
+            {
+              text: "Chart",
+              link: "/guide/chart",
+            },
           ],
         },
       ],

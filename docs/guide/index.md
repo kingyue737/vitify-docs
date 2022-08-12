@@ -14,7 +14,7 @@ You can learn more about the rationale behind the project in the [Why Vitify Adm
 
 You can try Vitify Admin online on [Netlify](https://vitify-admin.netlify.app/). Enter any username and password in demo login page to enter the home page.
 
-## Use Vitify Admin to start your project
+## Use Vitify Admin to Start your Project
 
 :::tip
 Vitify Admin requires Node >=v16
