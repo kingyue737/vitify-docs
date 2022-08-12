@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.5f11ea7b.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/formatter.md","lastUpdated":1660307765000}'),r={name:"guide/formatter.md"};function o(s,c,n,d,p,i){return a(),t("div")}var f=e(r,[["render",o]]);export{_ as __pageData,f as default};
