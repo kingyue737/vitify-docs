@@ -51,6 +51,14 @@ export default defineConfig({
               text: "Theme",
               link: "/guide/theme",
             },
+            {
+              text: "Icon",
+              link: "/guide/icon",
+            },
+            {
+              text: "API mocking",
+              link: "/guide/mock",
+            },
           ],
         },
       ],
