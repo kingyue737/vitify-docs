@@ -25,7 +25,10 @@ export default defineConfig({
       copyright: "Copyright © 2022-PRESENT Yue JIN, NuStar Nuclear",
     },
 
-    nav: [{ text: "Guide", link: "/guide/" }],
+    nav: [
+      { text: "Guide", link: "/guide/" },
+      { text: "NuStar Nuclear", link: "https://www.nustarnuclear.com" },
+    ],
     sidebar: {
       "/": [
         {
