@@ -5,7 +5,10 @@ export default defineConfig({
   base: "/vitify-docs/",
   description: "Vite + Vuetify, Opinionated Admin Starter Template",
   head: [
-    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
+    [
+      "link",
+      { rel: "icon", href: "/vitify-docs/favicon.svg", type: "image/svg+xml" },
+    ],
   ],
   lastUpdated: true,
   themeConfig: {
