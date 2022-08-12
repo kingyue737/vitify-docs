@@ -12,9 +12,14 @@ export default defineConfig({
     logo: "/favicon.svg",
 
     editLink: {
-      pattern: "https://github.com/vitest-dev/vitest/tree/main/docs/:path",
+      pattern: "https://github.com/kingyue737/vitify-docs/tree/main/docs/:path",
       text: "Suggest changes to this page",
     },
+
+    socialLinks: [
+      { icon: "github", link: "https://github.com/kingyue737/vitify-admin" },
+    ],
+
     footer: {
       message: "Released under the MIT License.",
       copyright: "Copyright © 2022-PRESENT Yue JIN, NuStar Nuclear",
