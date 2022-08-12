@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,a as l}from"./app.e781c04a.js";const A=JSON.parse('{"title":"Plugins","description":"","frontmatter":{},"headers":[],"relativePath":"guide/plugins.md","lastUpdated":1660323039000}'),e={name:"guide/plugins.md"},o=l("",7),p=[o];function t(c,i,r,y,d,D){return a(),n("div",null,p)}var C=s(e,[["render",t]]);export{A as __pageData,C as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t}from"./app.e781c04a.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/environment-variables.md","lastUpdated":1660323039000}'),r={name:"guide/environment-variables.md"};function n(o,s,i,c,d,p){return t(),a("div")}var l=e(r,[["render",n]]);export{_ as __pageData,l as default};

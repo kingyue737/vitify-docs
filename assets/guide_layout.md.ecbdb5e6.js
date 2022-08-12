@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.e781c04a.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/layout.md","lastUpdated":1660322115000}'),o={name:"guide/layout.md"};function r(s,c,n,d,p,i){return a(),t("div")}var u=e(o,[["render",r]]);export{l as __pageData,u as default};
