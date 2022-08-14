@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./app.e781c04a.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/router.md","lastUpdated":1660323039000}'),a={name:"guide/router.md"};function o(s,c,n,d,p,i){return r(),t("div")}var m=e(a,[["render",o]]);export{u as __pageData,m as default};
