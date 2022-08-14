@@ -1,6 +1,6 @@
 # Chart
 
-Data visualization with charts is common requirement in an admin platform. In Vitify Admin, we use [vue-echarts](https://github.com/ecomfe/vue-echarts), a Vue.js component for [Apache ECharts](https://echarts.apache.org/en/index.html).
+Data visualization with charts is common requirement in an admin platform. In Vitify Admin, we use [vue-echarts](https://github.com/ecomfe/vue-echarts), a Vue.js component for [Apache ECharts](https://echarts.apache.org/en/index.html). Vue-ECharts component auto resizes ECharts instance when the size of its parent container changes and bind ECharts events with Vue's `v-on` directive.
 
 We encourage manually importing components and charts from ECharts for smaller bundle size. See all supported renderers/charts/components [here →](https://github.com/apache/echarts/blob/master/src/echarts.all.ts). According your requirement, adjusting which features of ECharts to included in [`src/plugins/echarts.ts`](https://github.com/kingyue737/vitify-admin/blob/main/src/plugins/echarts.ts).
 

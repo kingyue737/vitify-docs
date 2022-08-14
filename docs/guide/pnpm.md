@@ -1,3 +1,3 @@
-# Permission
+# pnpm
 
 Documentation coming soon...

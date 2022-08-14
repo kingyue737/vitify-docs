@@ -50,6 +50,14 @@ export default defineConfig({
               link: "/guide/migration",
             },
             {
+              text: "Plugins",
+              link: "/guide/plugins",
+            },
+            {
+              text: "API Mocking",
+              link: "/guide/mock",
+            },
+            {
               text: "I18n",
               link: "/guide/i18n",
             },
@@ -62,12 +70,56 @@ export default defineConfig({
               link: "/guide/icon",
             },
             {
-              text: "API mocking",
-              link: "/guide/mock",
-            },
-            {
               text: "Chart",
               link: "/guide/chart",
+            },
+            {
+              text: "Environment Variables",
+              link: "/guide/environment-variables",
+            },
+            {
+              text: "Construction",
+              link: "/guide/construction",
+            },
+            {
+              text: "TypeScript",
+              link: "/guide/typescript",
+            },
+            {
+              text: "Router",
+              link: "/guide/router",
+            },
+            {
+              text: "Permission",
+              link: "/guide/permission",
+            },
+            {
+              text: "Layout",
+              link: "/guide/layout",
+            },
+            {
+              text: "pnpm",
+              link: "/guide/pnpm",
+            },
+            {
+              text: "Testing",
+              link: "/guide/testing",
+            },
+            {
+              text: "Style",
+              link: "/guide/style",
+            },
+            {
+              text: "Build and Deploy",
+              link: "/guide/deploy",
+            },
+            {
+              text: "ESLint",
+              link: "/guide/eslint",
+            },
+            {
+              text: "Formatter",
+              link: "/guide/formatter",
             },
           ],
         },
