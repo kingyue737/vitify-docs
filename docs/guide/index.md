@@ -51,14 +51,14 @@ You can try Vitify Admin online on [Netlify](https://vitify-admin.netlify.app/).
 ├── .env.local            # local environment variables
 ├── .eslintrc.cjs         # ESLint configuration
 ├── .gitignore            # git intentionally untracked files settings
-├── .npmrc                #
+├── .npmrc                # pnpm/npm/yarn configuration
 ├── .prettierrc           # Prettier configuration
 ├── cypress.config.ts     # Cypress configuration
-├── env.d.ts              #
+├── env.d.ts              # type declaration for `import.meta.env`
 ├── index.html            # entry point
 ├── LICENSE               # license
 ├── netlify.toml          # Netlify deployment configuration
-├── package.json          #
+├── package.json          # project metadata
 ├── pnpm-lock.yaml        # pnpm lock file
 ├── postcss.config.ts     # PostCSS configuration
 ├── README.md             # README file
