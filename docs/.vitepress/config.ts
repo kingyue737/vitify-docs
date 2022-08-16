@@ -51,6 +51,10 @@ export default defineConfig({
               link: "/guide/migration",
             },
             {
+              text: "TypeScript",
+              link: "/guide/typescript",
+            },
+            {
               text: "Plugins",
               link: "/guide/plugins",
             },
@@ -81,10 +85,6 @@ export default defineConfig({
             {
               text: "Construction",
               link: "/guide/construction",
-            },
-            {
-              text: "TypeScript",
-              link: "/guide/typescript",
             },
             {
               text: "Router",
