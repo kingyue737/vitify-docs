@@ -11,7 +11,7 @@ A type system like TypeScript can detect many common errors via static analysis 
 Vitify Admin is a Vue 2 template. As Vue 2 is poor in TypeScript support before Vue 2.7, almost all Vue 2 components have no type support. Now with the power of Volar, we can profit type check and type-based auto-completion in SFC template. Here is how to define component props and slots manually to get intellisense in IDE:
 
 ```ts
-import type { DefineComponent } from '@vue/runtime-dom'
+import type { DefineComponent, VNode } from '@vue/runtime-dom'
 
 declare module '@vue/runtime-dom' {
   export interface GlobalComponents {
@@ -39,7 +39,7 @@ declare module '@vue/runtime-dom' {
 We can also add component methods, but we rarely need type check and auto-completion of component methods in SFC template.
 
 ```ts
-import type { DefineComponent } from '@vue/runtime-dom'
+import type { DefineComponent, VNode } from '@vue/runtime-dom'
 
 declare module '@vue/runtime-dom' {
   export interface GlobalComponents {
