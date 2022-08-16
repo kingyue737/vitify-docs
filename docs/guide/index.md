@@ -96,7 +96,7 @@ pnpm i
 
 ### Development
 
-Just run and visit localhost:9527
+Just run and visit http://localhost:9527
 
 ```bash
 pnpm dev

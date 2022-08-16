@@ -10,6 +10,7 @@ export default defineConfig({
       { rel: "icon", href: "/vitify-docs/favicon.svg", type: "image/svg+xml" },
     ],
   ],
+  ignoreDeadLinks: true,
   lastUpdated: true,
   themeConfig: {
     logo: "/favicon.svg",

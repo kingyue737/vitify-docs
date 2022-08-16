@@ -1,6 +1,6 @@
 # Environment Variables
 
-Vite exposes env variables on the special import.meta.env object. During production, these env variables are statically replaced. Refer to the [documentations](https://vitejs.dev/guide/env-and-mode.html#env-variables) for more details.
+Vite exposes env variables on the special `import.meta.env` object. During production, these env variables are statically replaced. Refer to the [documentations](https://vitejs.dev/guide/env-and-mode.html#env-variables) for more details.
 
 :::tip NOTE
 To prevent accidentally leaking env variables to the client, only variables prefixed with `VITE_` are exposed to your Vite-processed code.
