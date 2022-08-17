@@ -1,11 +1,24 @@
 # Testing
 
-Documentation coming soon...
+Automated tests are very important which help you and your team build complex applications quickly and confidently by preventing regressions and encouraging you to break apart your application into testable functions, modules, classes, and components.
+
+Before reading this guide, I highly recommend you to finish the following awesome artciles about testing:
+
+- [Vue3 Official Docs: Testing](https://vuejs.org/guide/scaling-up/testing.html)
+- [`@vue/test-utils`: Knowing What to test](https://v1.test-utils.vuejs.org/guides/#knowing-what-to-test)
+- ["Component Tests with Vue.js" by Matt O'Connell](https://www.youtube.com/watch?v=OIpfWTThrK8&ab_channel=VueNYC)
+- [`testing-library` Docs](https://testing-library.com/docs/)
+- [End-to-End or Component Tests](https://docs.cypress.io/guides/core-concepts/testing-types#End-to-End-or-Component-Tests)
 
 ## Unit/Component Testing
 
+Documentations coming soon...
+
 ## E2E Testing
 
+In Vitify Admin, we use [Cypress](https://www.cypress.io/) which provides the most complete E2E solution with features like an informative graphical interface, excellent debuggability, built-in assertions and stubs, flake-resistance, parallelization, and snapshots.
+
+Notice that Cypress also provides support for [Component Testing](https://docs.cypress.io/guides/component-testing/writing-your-first-component-test). For components which you want to test style, or with native DOM events, cookies and localStorage, Cypress component testing which run in real browsers is a better choice than Vitest + Testing Library.
 
 ### Cypress Download Speed
 
