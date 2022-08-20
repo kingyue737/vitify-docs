@@ -59,7 +59,7 @@ export default defineConfig({
               link: "/guide/plugins",
             },
             {
-              text: "Router",
+              text: "Router & Nav",
               link: "/guide/router",
             },
             {
