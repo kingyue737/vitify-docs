@@ -12,7 +12,13 @@ Before reading this guide, I highly recommend you to finish the following awesom
 
 ## Unit/Component Testing
 
-Documentations coming soon...
+We recommend to write "Blackbox tests" for component with [Testing Library](https://testing-library.com/docs/vue-testing-library/intro), in which the implementation details of a component should not be cared. The guiding principle of Testing Library is that the more tests resemble the way software is used, the more confidence they can provide.
+
+![Component Testing](./component-testing.png)
+
+Vitify Admin comes with three built-in testing utils in [`test/helpers.ts`](https://github.com/kingyue737/vitify-admin/blob/main/test/helpers.ts). The most frequently used method is `renderWithVuetify` which is used to mount component containing Vuetify components with Testing Library, while `createWrapper` mounts component with `@vue/test-utils`. Use `createWrapper` only if you are building advanced components that require testing Vue-specific internals. `mountComposable` funtion is used to test composables.
+
+[`login.spec.ts`](https://github.com/kingyue737/vitify-admin/blob/main/src/pages/__tests__/login.spec.ts) and [`message.spec.ts`](https://github.com/kingyue737/vitify-admin/blob/main/src/stores/__tests__/message.spec.ts) are two examples of how to write component testing and store testing.
 
 ## E2E Testing
 
