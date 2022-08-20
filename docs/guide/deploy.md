@@ -64,4 +64,4 @@ GitHub actions will still run E2E testing for you, but you can no longer watch t
 
 ### Netlify
 
-The [online demo](https://vitify-admin.netlify.app) of Vitify Admin is deployed by Netlify. All you need to deploy your own app online is to go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your app will be live in a minute. Deploy config [`netlify.toml`]() has already been included in this template.
+The [online demo](https://vitify-admin.netlify.app) of Vitify Admin is deployed by Netlify. All you need to deploy your own app online is to go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your app will be live in a minute. Deploy config [`netlify.toml`](https://github.com/kingyue737/vitify-admin/blob/main/netlify.toml) has already been included in this template.
