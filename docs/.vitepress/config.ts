@@ -59,6 +59,10 @@ export default defineConfig({
               link: "/guide/plugins",
             },
             {
+              text: "Style",
+              link: "/guide/style",
+            },
+            {
               text: "API Mocking",
               link: "/guide/mock",
             },
@@ -91,10 +95,6 @@ export default defineConfig({
               link: "/guide/testing",
             },
             {
-              text: "Construction",
-              link: "/guide/construction",
-            },
-            {
               text: "Router",
               link: "/guide/router",
             },
@@ -105,10 +105,6 @@ export default defineConfig({
             {
               text: "Layout",
               link: "/guide/layout",
-            },
-            {
-              text: "Style",
-              link: "/guide/style",
             },
             {
               text: "ESLint",
