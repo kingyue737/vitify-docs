@@ -59,6 +59,14 @@ export default defineConfig({
               link: "/guide/plugins",
             },
             {
+              text: "Router",
+              link: "/guide/router",
+            },
+            {
+              text: "Permission",
+              link: "/guide/permission",
+            },
+            {
               text: "Style",
               link: "/guide/style",
             },
@@ -66,6 +74,23 @@ export default defineConfig({
               text: "API Mocking",
               link: "/guide/mock",
             },
+            {
+              text: "Build & Deploy",
+              link: "/guide/deploy",
+            },
+            {
+              text: "Environment Variables",
+              link: "/guide/environment-variables",
+            },
+            {
+              text: "Testing",
+              link: "/guide/testing",
+            },
+          ],
+        },
+        {
+          text: "Advanced",
+          items: [
             {
               text: "I18n",
               link: "/guide/i18n",
@@ -83,36 +108,12 @@ export default defineConfig({
               link: "/guide/chart",
             },
             {
-              text: "Build & Deploy",
-              link: "/guide/deploy",
-            },
-            {
-              text: "Environment Variables",
-              link: "/guide/environment-variables",
-            },
-            {
-              text: "Testing",
-              link: "/guide/testing",
-            },
-            {
               text: "ESLint",
               link: "/guide/eslint",
             },
             {
               text: "Formatter",
               link: "/guide/formatter",
-            },
-            {
-              text: "Router",
-              link: "/guide/router",
-            },
-            {
-              text: "Permission",
-              link: "/guide/permission",
-            },
-            {
-              text: "Layout",
-              link: "/guide/layout",
             },
           ],
         },

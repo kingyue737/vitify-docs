@@ -1,3 +1,0 @@
-# Layout
-
-Documentation coming soon...
