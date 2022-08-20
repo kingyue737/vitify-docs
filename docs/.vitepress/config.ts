@@ -111,7 +111,7 @@ export default defineConfig({
               link: "/guide/style",
             },
             {
-              text: "Build and Deploy",
+              text: "Build & Deploy",
               link: "/guide/deploy",
             },
             {
