@@ -79,8 +79,16 @@ export default defineConfig({
               link: "/guide/chart",
             },
             {
+              text: "Build & Deploy",
+              link: "/guide/deploy",
+            },
+            {
               text: "Environment Variables",
               link: "/guide/environment-variables",
+            },
+            {
+              text: "Testing",
+              link: "/guide/testing",
             },
             {
               text: "Construction",
@@ -99,20 +107,8 @@ export default defineConfig({
               link: "/guide/layout",
             },
             {
-              text: "pnpm",
-              link: "/guide/pnpm",
-            },
-            {
-              text: "Testing",
-              link: "/guide/testing",
-            },
-            {
               text: "Style",
               link: "/guide/style",
-            },
-            {
-              text: "Build & Deploy",
-              link: "/guide/deploy",
             },
             {
               text: "ESLint",

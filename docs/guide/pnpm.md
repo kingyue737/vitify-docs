@@ -1,3 +1,0 @@
-# pnpm
-
-Documentation coming soon...
