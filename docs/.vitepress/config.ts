@@ -95,6 +95,14 @@ export default defineConfig({
               link: "/guide/testing",
             },
             {
+              text: "ESLint",
+              link: "/guide/eslint",
+            },
+            {
+              text: "Formatter",
+              link: "/guide/formatter",
+            },
+            {
               text: "Router",
               link: "/guide/router",
             },
@@ -105,14 +113,6 @@ export default defineConfig({
             {
               text: "Layout",
               link: "/guide/layout",
-            },
-            {
-              text: "ESLint",
-              link: "/guide/eslint",
-            },
-            {
-              text: "Formatter",
-              link: "/guide/formatter",
             },
           ],
         },
