@@ -24,7 +24,7 @@ Note that there are several issues with `@vitejs/plugin-legacy`, it doesn't read
 . Thirdly, `@vitejs/plugin-legacy` always generates modern bundles. There is no way to make it only output the legacy bundles that support all target browsers (loaded via plain `<script>`s) [#9050](https://github.com/vitejs/vite/issues/9050).
 #### Check Whether Browser is Supported on Client Side
 
-Sometimes we want to test if the user's browser is supported by our application and give a warning if not. [`vite-plugin-browserslist-useragent`](https://github.com/kingyue737/vite-plugin-browselist-useragent/) can find if a given user agent match your browselist query. You can remove this plugin if you don't need check browser client.
+Sometimes we want to test if the user's browser is supported by our application and give a warning if not. [`vite-plugin-browserslist-useragent`](https://github.com/kingyue737/vite-plugin-browserslist-useragent/) can find if a given user agent match your browserslist query. You can remove this plugin if you don't need check browser client.
 
 ## Deploy
 
