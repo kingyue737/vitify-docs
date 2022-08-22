@@ -96,7 +96,7 @@ pnpm i
 
 ### Development
 
-Just run and visit <a href="http://localhost:9527" target="_blank" rel="noreferrer">http://localhost:9527</a>
+Just run and visit <a href="http://localhost:9527" target="_blank" rel="noreferrer">localhost:9527</a>
 
 ```bash
 pnpm dev
