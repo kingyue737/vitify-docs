@@ -28,7 +28,7 @@ router.beforeEach(async (to, from, next) => {
         next()
         return
       }
-      // Redirect to 404 error page(TODO) if not permitted
+      // Redirect to 404 error page if not permitted
       next({ name: 'all' })
     }
   } else {
