@@ -1,9 +1,14 @@
 import { defineConfig } from "vitepress";
 
+const ogTitle = "Vitify Admin";
+const ogDescription = "Vite + Vuetify, Opinionated Admin Starter Template";
+const ogImage = "https://kingyue737.github.io/vitify-docs/og.jpg";
+const ogUrl = "https://kingyue737.github.io/vitify-docs/";
+
 export default defineConfig({
-  title: "Vitify Admin",
+  title: ogTitle,
   base: "/vitify-docs/",
-  description: "Vite + Vuetify, Opinionated Admin Starter Template",
+  description: ogDescription,
   head: [
     [
       "link",
@@ -18,6 +23,11 @@ export default defineConfig({
           "vuetify, vite, typescript, vue, pinia, vitest, cypress, admin, template, starter, i18n",
       },
     ],
+    ["meta", { property: "og:title", content: ogTitle }],
+    ["meta", { property: "og:description", content: ogDescription }],
+    ["meta", { property: "og:url", content: ogUrl }],
+    ["meta", { property: "og:image", content: ogImage }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "theme-color", content: "#0d90ee" }],
   ],
   ignoreDeadLinks: true,
