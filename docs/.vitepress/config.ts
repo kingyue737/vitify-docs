@@ -9,6 +9,15 @@ export default defineConfig({
       "link",
       { rel: "icon", href: "/vitify-docs/favicon.svg", type: "image/svg+xml" },
     ],
+    ["meta", { name: "author", content: "Yue JIN" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "vuetify, vite, typescript, vue, pinia, vitest, cypress, admin, template, starter, i18n",
+      },
+    ],
   ],
   ignoreDeadLinks: true,
   lastUpdated: true,
