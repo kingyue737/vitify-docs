@@ -18,6 +18,7 @@ export default defineConfig({
           "vuetify, vite, typescript, vue, pinia, vitest, cypress, admin, template, starter, i18n",
       },
     ],
+    ["meta", { name: "theme-color", content: "#0d90ee" }],
   ],
   ignoreDeadLinks: true,
   lastUpdated: true,
