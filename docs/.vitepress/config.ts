@@ -53,6 +53,13 @@ export default defineConfig({
       { text: "Guide", link: "/guide/" },
       { text: "NuStar Nuclear", link: "https://www.nustarnuclear.com" },
     ],
+
+    algolia: {
+      appId: "YGFDNKGJ79",
+      apiKey: "0fb927520e36348631e0297ef9c16cd7",
+      indexName: "vitify",
+    },
+
     sidebar: {
       "/": [
         {
