@@ -14,10 +14,17 @@ By default, we include the official [`splitVendorChunkPlugin`](https://vitejs.de
 
 ### Browser Compatibility
 
-Browser compatibility consists of transpilation and polyfill. By specifying custom targets via the [`build.target` config options](https://vitejs.dev/config/build-options.html#build-target), where the lowest target is `es2015`, Vite can handle the transpilation and transform syntax to what can be understand by the target browsers. In Vitify Admin, `build.target` is auto-generated from your [`browserslist`](https://github.com/browserslist/browserslist) config.
+Browser compatibility consists of transpilation and polyfill. By specifying custom targets via the [`build.target` config options](https://vitejs.dev/config/build-options.html#build-target), where the lowest target is `es2015`, Vite can handle the transpilation and transform syntax to what can be understand by the target browsers. You can make `build.target` auto-generated from your [`browserslist`](https://github.com/browserslist/browserslist) config via [`
+browserslist-to-esbuild`](https://github.com/marcofugaro/browserslist-to-esbuild).
+
+```sh
+pnpm add browserslist-to-esbuild -D
+```
 
 ```ts
 // vite.config.ts
+import browserslistToEsbuild from 'browserslist-to-esbuild'
+
 export default defineConfig({
   build: { target: browserslistToEsbuild() },
   /* other settings */

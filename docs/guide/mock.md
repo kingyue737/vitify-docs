@@ -19,7 +19,7 @@ if (import.meta.env.VITE_MOCK && import.meta.env.DEV) {
 }
 ```
 :::tip NOTE
-In source code of Vitify Admin, I don't include `import.meta.env.DEV` in condition check so that all the data in [online demo](https://vitify-admin.netlify.app/) come from mock worker instance. As a result, the online demo can only be viewed in browsers supporting [top level await](https://caniuse.com/mdn-javascript_operators_await_top_level). Don't forget to add `import.meta.env.DEV` in your own code to ensure no mock service in production bundle.
+In source code of Vitify Admin, I don't include `import.meta.env.DEV` in condition check so that all the data in [online demo](https://vitify-admin.netlify.app/) come from mock worker instance. As a result, the online demo can only be viewed in browsers supporting [top level await](https://caniuse.com/mdn-javascript_operators_await_top_level). That's why I add `build.target = ['chrome90']` in `vite.config.ts`. Don't forget to add `import.meta.env.DEV` in your own code to ensure no mock service in production bundle.
 :::
 
 ### Unit Testing
