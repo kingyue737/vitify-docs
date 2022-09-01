@@ -15,8 +15,8 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.10",
-    "vue": "^3.2.37"
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.38"
   },
   "pnpm": {
     "peerDependencyRules": {
