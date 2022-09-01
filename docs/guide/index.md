@@ -27,9 +27,9 @@ You can try Vitify Admin online on [Netlify](https://vitify-admin.netlify.app/).
 ├── src                   # application code
 │   ├── api               # API service
 │   ├── assets            # assets
-│   │   ├─icons           # SVG icons
-│   │   ├─images          # images
-│   │   └─styles          # global Sass/CSS
+│   │   ├─ icons          # SVG icons
+│   │   ├─ images         # images
+│   │   └─ styles         # global Sass/CSS
 │   ├── components        # components
 │   ├── composables       # global composables
 │   ├── layouts           # layout components
