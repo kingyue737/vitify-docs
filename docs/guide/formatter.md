@@ -30,7 +30,6 @@ Notice the Prettier config of Vitify Admin is very simple, as it [inherits confi
 {
   "singleQuote": true,
   "semi": false,
-  "editorconfig": true
 }
 ```
 
