@@ -11,7 +11,7 @@
   --vp-c-brand-dark: #1867c0;
   --vp-c-brand-darker: #155bac;
   --vp-c-text-code: #5d6f5d;
-  --vp-code-block-bg: rgba(125,125,125,0.04);
+  /* --vp-code-block-bg: rgba(125,125,125,0.04); */
   /* fix TIP on light: the default one is too light (2 in contrast) */
   --vp-custom-block-tip-text: rgb(12, 124, 108);
   --vp-custom-block-tip-border: rgba(12, 124, 108, 0.5);
