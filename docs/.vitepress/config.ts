@@ -32,6 +32,12 @@ export default defineConfig({
   ],
   ignoreDeadLinks: true,
   lastUpdated: true,
+  markdown: {
+    theme: {
+      light: "vitesse-light",
+      dark: "vitesse-dark",
+    },
+  },
   themeConfig: {
     logo: "/favicon.svg",
 
