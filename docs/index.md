@@ -9,7 +9,7 @@ hero:
   text: Vite + Vuetify
   tagline: Opinionated Admin Starter Template
   image:
-    src: /favicon.svg
+    src: /logo-with-shadow.svg
     alt: Vitest
   actions:
     - theme: brand
