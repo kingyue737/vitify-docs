@@ -114,19 +114,19 @@ And you will see the generated file in `dist` that ready to be served.
 
 ### Type Check
 
-```
+```bash
 pnpm typecheck
 ```
 
 ### Testing
 
-```
+```bash
 pnpm test:unit
 ```
 
 For E2E test, you need to build the project first
 
-```
+```bash
 pnpm build
 pnpm test:e2e
 ```
