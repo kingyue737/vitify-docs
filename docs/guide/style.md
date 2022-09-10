@@ -21,7 +21,6 @@ All global styles of Vitify Admin are set in the `@/assets/styles` directory.
 The common workflow is that the global styles are written in the `@/assets/styles` directory and each page's own style is written in its own `.vue` file.
 
 ```vue
-// Vue SFC
 <style scoped lang="scss">
 /* local styles */
 </style>

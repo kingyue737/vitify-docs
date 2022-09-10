@@ -26,7 +26,7 @@ declare module 'vue-router' {
 
 #### Example
 
-```html
+```vue
 <route lang="json">
 {
   "meta": {
@@ -70,7 +70,7 @@ All the pages except login page share the same layout with navigation drawer, he
 
 With the help of [`vite-plugin-vue-layout`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts), we don't need to manually add a parent layout component for every first-level route. The plugin works along with `vite-plugin-pages` and will transform the original router. If you want to change the layout for a specific page, add or modify `layout` meta in route block.
 
-```html
+```vue
 <route lang="yaml">
 meta:
   layout: users
