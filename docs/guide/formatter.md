@@ -2,7 +2,7 @@
 
 ## EditorConfig
 
-[EditorConfig] helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig file defines the coding styles.
+[EditorConfig](https://editorconfig.org/) helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. The EditorConfig file defines the coding styles.
 
 ```ini
 # top-most EditorConfig file
