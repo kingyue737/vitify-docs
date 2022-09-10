@@ -11,7 +11,7 @@
   --vp-c-brand-dark: #1867c0;
   --vp-c-brand-darker: #155bac;
   --vp-c-text-code: #5d6f5d;
-  --vp-code-block-bg: rgba(125,125,125,0.04);
+  --vp-code-block-bg: rgba(125, 125, 125, 0.04);
   /* fix TIP on light: the default one is too light (2 in contrast) */
   --vp-custom-block-tip-text: rgb(12, 124, 108);
   --vp-custom-block-tip-border: rgba(12, 124, 108, 0.5);
@@ -19,18 +19,20 @@
   /* fix contrast on gray cards: used by --vp-c-text-2 */
   --vp-c-text-light-2: rgba(56 56 56 / 70%);
   --vp-c-text-dark-3: rgba(200, 200, 200, 0.88);
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark {
-  --vp-code-block-bg: rgba(0,0,0,0.2);
+  --vp-code-block-bg: rgba(0, 0, 0, 0.2);
   --vp-c-text-code: #c0cec0;
   /* fix TIP: check the same above (these are the defaults) */
   --vp-custom-block-tip-text: rgb(18, 181, 157);
   --vp-custom-block-tip-border: rgba(18, 181, 157, 0.5);
   --vp-custom-block-tip-bg: rgba(18, 181, 157, 0.1);
   /* fix contrast on gray cards: check the same above (this is the default) */
-  --vp-c-text-dark-2: rgba(235, 235, 235, 0.60);
+  --vp-c-text-dark-2: rgba(235, 235, 235, 0.6);
   --vp-c-text-dark-3: rgba(235, 235, 235, 0.38);
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
 }
 
 /**
@@ -53,7 +55,7 @@
  * Component: Home
  * -------------------------------------------------------------------------- */
 
- :root {
+:root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
@@ -79,7 +81,6 @@
     --vp-home-hero-image-filter: blur(72px);
   }
 }
-
 
 /**
  * Component: Algolia
