@@ -148,6 +148,10 @@ export default defineConfig({
               text: "Formatter",
               link: "/guide/formatter",
             },
+            {
+              text: "Backend",
+              link: "/guide/backend",
+            },
           ],
         },
       ],
