@@ -76,7 +76,7 @@ You can try Vitify Admin online on [Netlify](https://vitify-admin.netlify.app/).
 Vitify Admin requires Node >=v16
 :::
 
-### Github Template
+### GitHub Template
 
 [Create a repo from this template on GitHub](https://github.com/kingyue737/vitify-admin/generate).
 
