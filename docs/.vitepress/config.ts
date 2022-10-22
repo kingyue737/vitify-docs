@@ -38,6 +38,7 @@ export default defineConfig({
       dark: "vitesse-dark",
     },
   },
+  appearance: "dark",
   themeConfig: {
     logo: "/favicon.svg",
 
