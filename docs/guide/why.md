@@ -6,7 +6,7 @@ I made this starter template for promptly scaffolding admin projects of my compa
 
 As TypeScript gets more and more popular, Volar becomes the new official VSCode extension of Vue. Vuetify 2, however, [does not support Volar officially](https://github.com/vuetifyjs/vuetify/issues/14798). Therefore, I tried generating components types from `web-types` of Vuetify and successfully bring intellisense and type check to Vuetify project.
 
-Currently, plenty of awesome Vue 2 librarys have not migrated to Vue 3 ecosystem, maybe never 😭. There is still a long way to go before the release of version Vuetify v3.1 which includes all components of Vuetify 2. So I struggle with bridging perfect DX of Vue 3 to my Vuetify 2 projects. It's strongly opinionated, but hope it can help you to avoid detours.
+Currently, plenty of awesome Vue 2 librarys have not migrated to Vue 3 ecosystem, maybe never 😭. There is still a long way to go before the release of version Vuetify [v3.3](https://github.com/vuetifyjs/vuetify/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22v3.3.0+%28Icarus%29%22) which includes all components of Vuetify 2. So I struggle with bridging perfect DX of Vue 3 to my Vuetify 2 projects. It's strongly opinionated, but hope it can help you to avoid detours.
 
 ## How is Vitify Admin Different from X
 
