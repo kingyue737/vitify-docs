@@ -8,7 +8,7 @@ Vite provides built-in support for `.scss`, `.sass`, `.less`, `.styl` and `.styl
 
 All global styles of Vitify Admin are set in the `@/assets/styles` directory.
 
-```
+```bash
 ├── styles
 │   ├── _overrides.scss          # global style overrides vuetify predefined style
 │   ├── _scrollbar.scss          # custom scrollbar style (only works in chromium)
