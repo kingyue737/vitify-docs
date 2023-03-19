@@ -2,6 +2,10 @@
 
 ## The need for a Vue 2.7 starter template
 
+:::tip NOTE
+We now have a template of Vue 3 version. Try it on github [kingyue737/vitify-next](https://github.com/kingyue737/vitify-next).
+:::
+
 I made this starter template for promptly scaffolding admin projects of my company, along with some good practices I've learned during making these apps.
 
 As TypeScript gets more and more popular, Volar becomes the new official VSCode extension of Vue. Vuetify 2, however, [does not support Volar officially](https://github.com/vuetifyjs/vuetify/issues/14798). Therefore, I tried generating components types from `web-types` of Vuetify and successfully bring intellisense and type check to Vuetify project.
