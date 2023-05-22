@@ -10,7 +10,7 @@ hero:
   tagline: Opinionated Admin Starter Template
   image:
     src: /logo-with-shadow.svg
-    alt: Vitest
+    alt: Vitify
   actions:
     - theme: brand
       text: Get Started
