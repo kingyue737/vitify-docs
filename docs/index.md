@@ -24,7 +24,7 @@ features:
     details: Feel the speed of Vite. Instant server start and lightning fast HMR that stays fast regardless of the app size.
   - title: 🦾 Full TypeScript and intellisense
     details: First template with Vuetify component types in community. Enjoy writing all source code and configs with TypeScript.
-  - title: 🖖 Composition API & `<script setup>`
+  - title: "🖖 Composition API"
     details: Use Vue 3 syntax while profiting whole Vue 2 ecosystem and community. Out of box for stable production.
   - title: 🗂️ File-based routing
     details: define routes based on the structure of your `pages` directory.
