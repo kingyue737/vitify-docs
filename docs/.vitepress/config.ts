@@ -41,6 +41,7 @@ export default defineConfig({
   appearance: "dark",
   themeConfig: {
     logo: "/favicon.svg",
+    outline: [2, 3],
 
     editLink: {
       pattern: "https://github.com/kingyue737/vitify-docs/tree/main/docs/:path",
