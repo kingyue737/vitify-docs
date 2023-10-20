@@ -18,6 +18,8 @@ will become
 
 We've already configured it for you. Just use `<v-icon>` as mentioned in Vuetify official docs.
 
+If you still want to use `@mdi/font` instead of `@mdi/js`, remove this plugin from `vite.config.ts`.
+
 ## Custom SVG icons
 
 If you don't find desired icon in MDI, you can add any SVG icons in `src/assets/icons` folder. The icons in this folder will be auto registered as Vuetify icon with the same name as the filename of `.svg`. For example, in this template, we already have `nustar.svg` in icons folder. We can directly use it:

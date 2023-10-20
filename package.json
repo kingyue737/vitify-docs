@@ -1,6 +1,7 @@
 {
   "name": "vitify-docs",
-  "packageManager": "pnpm@7.29.0",
+  "type": "module",
+  "packageManager": "pnpm@8.9.2",
   "version": "1.0.0",
   "description": "Documentations for Vitify Admin",
   "keywords": [
@@ -15,7 +16,7 @@
     "docs:serve": "vitepress serve docs"
   },
   "devDependencies": {
-    "vitepress": "1.0.0-beta.1",
+    "vitepress": "^1.0.0-rc.22",
     "vue": "^3.3.4"
   },
   "pnpm": {

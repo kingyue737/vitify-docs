@@ -26,11 +26,25 @@ In Vitify Admin, we use [Cypress](https://www.cypress.io/) which provides the mo
 
 Notice that Cypress also provides support for [Component Testing](https://docs.cypress.io/guides/component-testing/writing-your-first-component-test). For components which you want to test style, or with native DOM events, cookies and localStorage, Cypress component testing which run in real browsers is a better choice than Vitest + Testing Library.
 
+:::tip NOTE
+In [Vue 3 version](https://github.com/kingyue737/vitify-next), I have switched from Cypress to Microsoft's [Playwright](https://playwright.dev/) which can run e2e [test on branded browsers](https://playwright.dev/docs/browsers#run-tests-on-different-browsers) instead of downloading a large Electron binary as Cypress does.
+:::
+
 ### Cypress Download Speed
 
 Downloading Cypress binary can be extremely slow, which is a long-lived issue bothers users all around the world [#7251](https://github.com/cypress-io/cypress/issues/7251) [#17652](https://github.com/cypress-io/cypress/issues/17652) [#19612](https://github.com/cypress-io/cypress/issues/19612) [#20032](https://github.com/cypress-io/cypress/issues/20032).
 
 Since v10.6.0, Cypress enhanced the [`CYPRESS_DOWNLOAD_PATH_TEMPLATE`](https://docs.cypress.io/guides/references/advanced-installation#Environment-variables) environment variable interpolation to accept and replace `${version}` to allow version-specific download paths to be honored. Therefore, for developers in China, we can set environment variables to download the binary from [npmmirror](https://npmmirror.com/) instead of the orginal snail-slow Cloudflare. Add the following environment variable to your system:
+
 ```bash
 CYPRESS_DOWNLOAD_PATH_TEMPLATE='https://cdn.npmmirror.com/binaries/cypress/${version}/${platform}-${arch}/cypress.zip'
 ```
+
+:::tip NOTE
+For Playwright users in China, you can also set download path:
+
+```bash
+`PLAYWRIGHT_DOWNLOAD_HOST='https://cdn.npmmirror.com/binaries/playwright'`
+```
+
+:::
