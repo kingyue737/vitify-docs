@@ -3,40 +3,10 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-accent: #dab40b;
-  --vp-c-brand: #0d90ee;
-  --vp-c-brand-light: #1697f6;
-  --vp-c-brand-lighter: #4ab0f8;
-  --vp-c-brand-lightest: #aeddff;
-  --vp-c-brand-dark: #1867c0;
-  --vp-c-brand-darker: #155bac;
-  /* fix TIP on light: the default one is too light (2 in contrast) */
-  --vp-custom-block-tip-text: rgb(12, 124, 108);
-  --vp-custom-block-tip-border: rgba(12, 124, 108, 0.5);
-  --vp-custom-block-tip-bg: rgba(18, 181, 157, 0.1);
-}
-
-.dark {
-  /* fix TIP: check the same above (these are the defaults) */
-  --vp-custom-block-tip-text: rgb(18, 181, 157);
-  --vp-custom-block-tip-border: rgba(18, 181, 157, 0.5);
-  --vp-custom-block-tip-bg: rgba(18, 181, 157, 0.1);
-}
-
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-button-brand-border: var(--vp-c-brand-light);
-  --vp-button-brand-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-bg: var(--vp-c-brand);
-  --vp-button-brand-hover-border: var(--vp-c-brand-light);
-  --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
-  --vp-button-brand-active-border: var(--vp-c-brand-light);
-  --vp-button-brand-active-text: var(--vp-c-text-dark-1);
-  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+  --vp-c-brand-1: #0d90ee;
+  --vp-c-brand-2: #5fb3f0;
+  --vp-c-brand-3: #279ef3;
+  --vp-c-brand-soft: rgba(101, 117, 133, 0.16);
 }
 
 /**
@@ -75,5 +45,5 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand) !important;
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
