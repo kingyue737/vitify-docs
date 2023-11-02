@@ -23,20 +23,18 @@ pnpm add browserslist-to-esbuild -D
 
 ```ts
 // vite.config.ts
-import browserslistToEsbuild from 'browserslist-to-esbuild'
+import browserslistToEsbuild from "browserslist-to-esbuild";
 
 export default defineConfig({
   build: { target: browserslistToEsbuild() },
   /* other settings */
-})
+});
 ```
 
 For polyfills, there are two solutions. Vite recommend [Polyfill.io](https://polyfill.io/v3/) which is a service that automatically generates polyfill bundles based on the user's browser UserAgent string. However, it may not be a good solution if you are building product for instituts or governments which do not have access to internet, which is common for admin projects.
 
-In Vitify Admin, we support legacy browsers via [`@vitejs/plugin-legacy`](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy), which will automatically generate legacy chunks and corresponding ES language feature polyfills. The legacy chunks are conditionally loaded only in browsers that do not have native ESM support.
+In Vitify Admin, we support legacy browsers via [`@vitejs/plugin-legacy`](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy), which will automatically generate legacy chunks and corresponding ES language feature polyfills. The legacy chunks are conditionally loaded only in browsers that do not have native ESM support. [PostCSS Preset Env](style.md#postcss) has been integrated in this template to convert modern CSS into something most browsers can understand.
 
-Note that there are several issues with `@vitejs/plugin-legacy`, it doesn't read your `browserslist` config to decide the browsers to support, which is a long-lived bug [#2476](https://github.com/vitejs/vite/issues/2476). You need to manually set `targets` in config of this plugin if you need to support legacy browsers. Secondly, `modernpolyfills` always targets to all browsers supporting ESM, no matter what `targets` in plugin config are set [#6922](https://github.com/vitejs/vite/issues/6922)
-. Thirdly, `@vitejs/plugin-legacy` always generates modern bundles. There is no way to make it only output the legacy bundles that support all target browsers (loaded via plain `<script>`s) [#9050](https://github.com/vitejs/vite/issues/9050).
 #### Check Whether Browser is Supported on Client Side
 
 Sometimes we want to test if the user's browser is supported by our application and give a warning if not. [`vite-plugin-browserslist-useragent`](https://github.com/kingyue737/vite-plugin-browserslist-useragent/) can find if a given user agent match your browserslist query. You can remove this plugin if you don't need check browser client.

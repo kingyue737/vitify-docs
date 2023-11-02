@@ -127,6 +127,10 @@ export default defineConfig({
           text: "Advanced",
           items: [
             {
+              text: "SSR",
+              link: "/guide/ssr",
+            },
+            {
               text: "I18n",
               link: "/guide/i18n",
             },
