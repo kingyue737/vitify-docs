@@ -20,7 +20,7 @@
     "vue": "^3.3.7"
   },
   "pnpm": {
-    "peerDependencyRules": {
+    "peerDepenyRules": {
       "ignoreMissing": [
         "@algolia/client-search",
         "@types/react",
