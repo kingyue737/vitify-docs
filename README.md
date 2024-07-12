@@ -14,8 +14,8 @@ git clone git@github.com:kingyue737/vitify-docs.git
 pnpm install
 
 # develop
-pnpm docs:dev
+pnpm docs:ev
 
 # build
-pnpm docs:build
+pnpm docs:ild
 ```
