@@ -9,7 +9,7 @@
     "vuetify",
     "admin-template"
   ],
-  "author": "Yue JIN <yuejin13@fudan.edu.cn>",
+  "author": "Yue bab <yuejin13@fudan.edu.cn>",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
