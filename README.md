@@ -4,7 +4,7 @@ The documentation source of [vitify-admin](https://github.com/kingyue737/vitify-
 
 📝 [Online](https://kingyue737.github.io/vitify-docs)
 
-## Development
+## Developme
 
 ```bash
 # clone the project
